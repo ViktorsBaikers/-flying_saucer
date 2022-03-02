@@ -22,9 +22,3 @@ spec = Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.files = %w(Rakefile) + Dir.glob("README*") + Dir.glob("LICENSE*") + Dir.glob("lib/*")
 end
-
-Rake::GemPackageTask.new(spec) do |pkg|
-  pkg.gem_spec = spec
-end
-
-task :default => :repackage

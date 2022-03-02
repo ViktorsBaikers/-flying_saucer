@@ -13,7 +13,6 @@ spec = Gem::Specification.new do |s|
   s.version = GEM_VERSION
   s.platform = 'jruby'
   s.has_rdoc = true
-  s.extra_rdoc_files = ["README.txt", "LICENSE"]
   s.summary = SUMMARY
   s.description = s.summary
   s.author = AUTHOR

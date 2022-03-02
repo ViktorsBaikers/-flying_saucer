@@ -1,5 +1,5 @@
-require 'rubygems'
-require 'rake/gempackagetask'
+# -*- encoding: utf-8 -*-
+$:.push File.expand_path("../lib", __FILE__)
 
 GEM = "flying_saucer"
 GEM_VERSION = "0.8.0"
